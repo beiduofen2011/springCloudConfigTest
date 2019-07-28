@@ -6,7 +6,7 @@ spring:
 spring:
   profiles: dev
   application:
-    name: microconfig-test1-dev
+    name: microconfig-atest1-dev
 mysql:
   url: aaa
 ---
