@@ -6,14 +6,26 @@ spring:
 spring:
   profiles: dev
   application:
-    name: mymicroconfig
+    name: microconfig-test-dev
+  datasource:
+    url: jdbc:dev
+    username: dev
+    password: 123456
 ---
 spring:
   profiles: pro
   application:
-    name: mymicroconfig
+    name: microconfig-test-pro
+  datasource:
+    url: jdbc:pro
+    username: pro
+    password: 123456    
 ---
 spring:
   profiles: test
   application:
-    name: mymicroconfig
+    name: microconfig-test-test
+  datasource:
+    url: jdbc:test
+    username: test
+    password: 123456
