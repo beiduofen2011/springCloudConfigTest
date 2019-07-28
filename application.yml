@@ -6,14 +6,14 @@ spring:
 spring:
   profiles: dev
   application:
-    name: microconfig-test-dev
+    name: mymicroconfig
 ---
 spring:
   profiles: pro
   application:
-    name: microconfig-test-pro
+    name: mymicroconfig
 ---
 spring:
   profiles: test
   application:
-    name: microconfig-test-test
+    name: mymicroconfig
