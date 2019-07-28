@@ -8,11 +8,11 @@ spring:
   application:
     name: microconfig-test-dev
 mysql:
-  url:aaa
+  url: aaa
 ---
 spring:
   profiles: default
   application:
       name: microconfig-test-default
 mysql:
-  url:aaa
+  url: aaa
