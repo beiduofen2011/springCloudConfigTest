@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: microconfig-atest1-dev
+mysql:
+  url: aaa
+---
+spring:
+  profiles: default
+  application:
+      name: microconfig-test-default
+mysql:
+  url: aaa
